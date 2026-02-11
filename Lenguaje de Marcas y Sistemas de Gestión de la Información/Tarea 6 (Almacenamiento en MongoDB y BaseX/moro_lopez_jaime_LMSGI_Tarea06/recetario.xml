@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recetario pais="España" version="1.0">
+  <receta id="R001" dificultad="media">
+    <titulo>Paella Valenciana</titulo>
+    <tiempo>60</tiempo>
+    <ingredientes>
+      <ingrediente cantidad="200g">Arroz</ingrediente>
+      <ingrediente cantidad="300g">Pollo</ingrediente>
+      <ingrediente cantidad="100g">Judías verdes</ingrediente>
+      <ingrediente cantidad="1">Pimiento rojo</ingrediente>
+    </ingredientes>
+    <preparacion>
+      <paso orden="1">Sofríe el pollo y las verduras.</paso>
+      <paso orden="2">Añade el arroz y el caldo.</paso>
+      <paso orden="3">Cocina a fuego medio durante 20 minutos.</paso>
+    </preparacion>
+    <autor nombre="Carlos García" experiencia="alta"/>
+  </receta>
+  <receta id="R002" dificultad="alta">
+    <titulo>Gazpacho Andaluz</titulo>
+    <tiempo>30</tiempo>
+    <ingredientes>
+      <ingrediente cantidad="500g">Tomate</ingrediente>
+      <ingrediente cantidad="1">Pepino</ingrediente>
+      <ingrediente cantidad="1">Pimiento verde</ingrediente>
+      <ingrediente cantidad="1 diente">Ajo</ingrediente>
+    </ingredientes>
+    <preparacion>
+      <paso orden="1">Trocea todos los ingredientes.</paso>
+      <paso orden="2">Tritura hasta obtener una crema fina.</paso>
+      <paso orden="3">Refrigera antes de servir.</paso>
+    </preparacion>
+    <autor nombre="Laura Ruiz" experiencia="media"/>
+  </receta>
+</recetario>

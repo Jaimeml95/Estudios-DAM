@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tarea UT04.3: ListView y Orientación (Ciudades y Habitantes) -->
+    <string name="app_name">ListView de Jaime Moro Lopez</string>
+    <string name="etiqueta_seleccion">Selecciona una ciudad</string>
+
+    <!-- Cadena formateada para el resultado: Nº de habitantes de (Ciudad): (Número) -->
+    <string name="resultado_habitantes">Nº de habitantes de %1$s: %2$s</string>
+    <string name="resultado_inicial">Nº de habitantes: Selecciona una ciudad</string>
+
+    <!-- Array de ciudades para el ListView -->
+    <string-array name="ciudades">
+        <item>Madrid</item>
+        <item>Barcelona</item>
+        <item>Valencia</item>
+        <item>Sevilla</item>
+    </string-array>
+</resources>

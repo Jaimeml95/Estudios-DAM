@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "recetas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "nombre": { "type": "string" },
+          "ingredientes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "nombre": { "type": "string" },
+                "cantidad": { "type": "string" }
+              },
+              "required": ["nombre", "cantidad"],
+              "additionalProperties": false
+            }
+          },
+          "comensales": { "type": "integer", "minimum": 1 },
+          "categoría": {
+            "type": "string",
+            "enum": ["Entrantes", "Primeros", "Segundos", "Postres", "Ensaladas", "Salsas", "Masas"]
+          },
+          "dificultad": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "duración": { "type": "string" },
+          "elaboración": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        },
+        "required": ["nombre", "ingredientes", "comensales", "categoría", "dificultad", "duración", "elaboración"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["recetas"],
+  "additionalProperties": false
+}

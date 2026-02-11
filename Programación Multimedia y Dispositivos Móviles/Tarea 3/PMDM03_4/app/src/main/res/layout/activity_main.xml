@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <!-- Título Principal -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tarea 3.4 Jaime Moro López"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp" />
+
+    <!-- 1a. ImageView con imagen cargada. Se usa android_logo como placeholder. -->
+    <ImageView
+        android:id="@+id/iv_imagen_principal"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/android_logo"
+        android:scaleType="fitCenter"
+        android:contentDescription="Imagen principal para mostrar/ocultar"
+        android:layout_marginBottom="24dp" />
+
+    <!-- 1b. Botón de acción (Punto 2). -->
+    <Button
+        android:id="@+id/btn_cambiar_imagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="CAMBIAR IMAGEN"
+        android:textSize="30sp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Contenedor Horizontal: Divide la línea en dos mitades 50/50 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- MITAD IZQUIERDA (50%): CheckBox -->
+        <!-- 1c. Checkbox para Deshabilitar Botón (Punto 3). -->
+        <CheckBox
+        android:id="@+id/cb_deshabilitar_boton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Deshabilitar botón"
+        android:textSize="14sp"
+        android:padding="4dp" />
+
+        <!-- MITAD DERECHA (50%): RadioGroup Vertical para las dos opciones. -->
+        <!-- 1d. Radio Buttons (Opciones de Visibilidad - Punto 4) -->
+        <RadioGroup
+        android:id="@+id/rg_visibilidad"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+            <RadioButton
+            android:id="@+id/rb_mostrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Mostrar Imagen"
+            android:checked="true" /> <!-- Por defecto, aparece marcado -->
+
+            <RadioButton
+            android:id="@+id/rb_ocultar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ocultar Imagen" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">The Seasons of Jaime Moro Lopez</string>
+    <!-- Nombres de las estaciones en inglés -->
+    <string name="otoño">AUTUMN</string>
+    <string name="invierno">WINTER</string>
+    <string name="primavera">SPRING</string>
+    <string name="verano">SUMMER</string>
+</resources>

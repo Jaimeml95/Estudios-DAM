@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Las estaciones del año de Jaime Moro Lopez</string>
+    <!-- Nombres de las estaciones en español -->
+    <string name="otoño">OTOÑO</string>
+    <string name="invierno">INVIERNO</string>
+    <string name="primavera">PRIMAVERA</string>
+    <string name="verano">VERANO</string>
+</resources>

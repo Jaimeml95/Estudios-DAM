@@ -1,0 +1,132 @@
+/* Estilos globales */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Encabezado */
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Navegación */
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Contenido principal */
+main {
+  padding: 1rem;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Estilo para el formulario (contacto.html) */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-container label {
+  font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  font-size: 16px;
+}
+
+.form-container textarea {
+  resize: vertical;
+}
+
+.form-container input[type="submit"],
+.form-container input[type="reset"] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form-container input[type="submit"]:hover,
+.form-container input[type="reset"]:hover {
+  background-color: #0056b3;
+}
+
+.form-container input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Estilo para contenido multimedia */
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.content-container img {
+  max-width: 40%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.content-container p {
+  flex: 1;
+  text-align: justify;
+}
+
+.content-container .intro-text {
+  flex: 1;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.content-container iframe {
+  width: 60%;
+  height: 315px;
+  border: none;
+}

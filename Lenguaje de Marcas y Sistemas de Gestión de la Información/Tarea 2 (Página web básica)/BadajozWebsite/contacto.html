@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Formulario de Contacto</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="historia.html">Historia</a></li>
+          <li><a href="tradiciones.html">Tradiciones</a></li>
+          <li><a href="datosEstadisticos.html">Datos Estadísticos</a></li>
+          <li><a href="informacionTuristica.html">Información Turística</a></li>
+          <li><a href="contenidoMultimedia.html">Multimedia</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="form-container">
+        <form action="#" method="post">
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" required /><br />
+
+          <label for="email">Correo Electrónico:</label>
+          <input type="email" id="email" name="email" required /><br />
+
+          <label for="message">Mensaje:</label><br />
+          <textarea id="message" name="message" rows="5" required></textarea
+          ><br />
+
+          <input type="checkbox" id="terms" name="terms" required />
+          <label for="terms">Acepto los términos y condiciones</label><br />
+
+          <input type="submit" value="Enviar" />
+          <input type="reset" value="Limpiar" />
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2024 Badajoz. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>

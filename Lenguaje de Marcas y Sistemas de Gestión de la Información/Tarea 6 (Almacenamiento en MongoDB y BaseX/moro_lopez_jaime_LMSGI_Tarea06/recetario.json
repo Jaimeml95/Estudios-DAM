@@ -1,0 +1,51 @@
+{
+  "pais": "España",
+  "version": "1.0",
+  "publicado": true,
+  "recetas": [
+    {
+      "id": "R001",
+      "titulo": "Paella Valenciana",
+      "tiempo": 60,
+      "dificultad": "media",
+      "activa": true,
+      "ingredientes": [
+        { "nombre": "Arroz", "cantidad": 200 },
+        { "nombre": "Pollo", "cantidad": 300 },
+        { "nombre": "Judías verdes", "cantidad": 100 }
+      ],
+      "preparacion": {
+        "pasos": [
+          { "orden": 1, "descripcion": "Sofríe el pollo y las verduras." },
+          { "orden": 2, "descripcion": "Añade el arroz y el caldo." }
+        ]
+      },
+      "autor": {
+        "nombre": "Carlos García",
+        "experiencia": "alta"
+      }
+    },
+    {
+      "id": "R002",
+      "titulo": "Gazpacho Andaluz",
+      "tiempo": 30,
+      "dificultad": "alta",
+      "activa": false,
+      "ingredientes": [
+        { "nombre": "Tomate", "cantidad": 500 },
+        { "nombre": "Pepino", "cantidad": 1 },
+        { "nombre": "Ajo", "cantidad": 1 }
+      ],
+      "preparacion": {
+        "pasos": [
+          { "orden": 1, "descripcion": "Trocea todos los ingredientes." },
+          { "orden": 2, "descripcion": "Tritura hasta obtener una crema fina." }
+        ]
+      },
+      "autor": {
+        "nombre": "Laura Ruiz",
+        "experiencia": "media"
+      }
+    }
+  ]
+}

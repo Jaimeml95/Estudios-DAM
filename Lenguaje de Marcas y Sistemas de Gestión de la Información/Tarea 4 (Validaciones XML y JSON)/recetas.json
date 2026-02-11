@@ -1,0 +1,24 @@
+{
+  "recetas": [
+    {
+      "nombre": "Ensalada César",
+      "ingredientes": [
+        {"nombre": "Lechuga romana", "cantidad": "1 unidad"},
+        {"nombre": "Pollo a la plancha", "cantidad": "200 gramos"},
+        {"nombre": "Queso parmesano", "cantidad": "50 gramos"},
+        {"nombre": "Picatostes", "cantidad": "1 taza"},
+        {"nombre": "Salsa César", "cantidad": "3 cucharadas"}
+      ],
+      "comensales": 2,
+      "categoría": "Ensaladas",
+      "dificultad": 2,
+      "duración": "20 minutos",
+      "elaboración": [
+        "Lavar y cortar la lechuga.",
+        "Cocinar el pollo a la plancha y cortarlo en tiras.",
+        "Mezclar todos los ingredientes en un bol.",
+        "Añadir la salsa César y servir."
+      ]
+    }
+  ]
+}

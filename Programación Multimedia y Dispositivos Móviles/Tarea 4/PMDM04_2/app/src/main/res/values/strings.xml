@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Strings de la Tarea UT04.2 -->
+    <string name="app_name">Spinner de Jaime Moro Lopez</string>
+
+    <!-- Array de colores para el Spinner -->
+    <string-array name="seleccion_color">
+        <item>Rojo</item>
+        <item>Azul</item>
+        <item>Verde</item>
+        <item>Naranja</item>
+    </string-array>
+    <!-- Etiqueta para el TextView de selección de color -->
+    <string name="etiqueta_seleccion_color">Selecciona color</string>
+    <!-- Etiqueta para el TextView de resultado: -->
+    <string name="color_seleccionado">El color seleccionado es\u0020</string>
+</resources>

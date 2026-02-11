@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Les saisons de Jaime Moro Lopez</string>
+    <!-- Nombres de las estaciones en francés -->
+    <string name="otoño">AUTOMNE</string>
+    <string name="invierno">HIVER</string>
+    <string name="primavera">PRINTEMPS</string>
+    <string name="verano">ÉTÉ</string>
+</resources>

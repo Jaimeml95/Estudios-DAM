@@ -1,0 +1,11 @@
+<!ELEMENT premios (edicion+)>
+<!ELEMENT edicion (categoria+)>
+<!ATTLIST edicion año CDATA #REQUIRED>
+<!ATTLIST edicion nombre CDATA #REQUIRED>
+
+<!ELEMENT categoria (pelicula, ganadores?)>
+<!ATTLIST categoria nombre CDATA #REQUIRED>
+
+<!ELEMENT pelicula (#PCDATA)>
+<!ELEMENT ganadores (persona+)>
+<!ELEMENT persona (#PCDATA)>

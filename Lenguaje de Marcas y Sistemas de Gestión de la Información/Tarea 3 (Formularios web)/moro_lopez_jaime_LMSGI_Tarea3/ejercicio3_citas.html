@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Citas Célebres</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+            width: 400px;
+        }
+        .cita {
+            font-size: 18px;
+            margin-bottom: 10px;
+            font-style: italic;
+        }
+        .autor {
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="cita" id="citaTexto"></div>
+        <div class="autor" id="citaAutor"></div>
+        <button onclick="mostrarCitaAleatoria()">Cambiar cita</button>
+    </div>
+
+    <script>
+        const citasCelebres = [
+            { cita: "El único modo de hacer un gran trabajo es amar lo que haces.", autor: "Steve Jobs" },
+            { cita: "No cuentes los días, haz que los días cuenten.", autor: "Muhammad Ali" },
+            { cita: "La vida es lo que pasa mientras estás ocupado haciendo otros planes.", autor: "John Lennon" },
+            { cita: "La mejor manera de predecir el futuro es creándolo.", autor: "Peter Drucker" },
+            { cita: "Solo sé que no sé nada.", autor: "Sócrates" }
+        ];
+
+        function mostrarCitaAleatoria() {
+            const indice = Math.floor(Math.random() * citasCelebres.length);
+            const cita = citasCelebres[indice];
+            document.getElementById("citaTexto").textContent = `"${cita.cita}"`;
+            document.getElementById("citaAutor").textContent = `- ${cita.autor}`;
+        }
+
+        // Mostrar una cita al cargar la página
+        window.onload = mostrarCitaAleatoria;
+    </script>
+
+</body>
+</html>

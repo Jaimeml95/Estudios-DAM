@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <!-- Título Principal -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"
+        android:text="GESTION DE CURSOS"
+        android:textColor="#003DCC"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <!-- Sección de Cursos (RadioGroup) -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecciona curso:"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:layout_marginBottom="8dp" />
+
+    <RadioGroup
+        android:id="@+id/rg_cursos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp">
+
+        <!-- Curso 1: Android (150€) -->
+        <RadioButton
+            android:id="@+id/rb_android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android (150€)"
+            android:textSize="16sp"
+            android:tag="150.0" />
+
+        <!-- Curso 2: Python (120€) -->
+        <RadioButton
+            android:id="@+id/rb_bbdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Python (120€)"
+            android:textSize="16sp"
+            android:tag="120.0" />
+
+        <!-- Curso 3: Unity (100€) -->
+        <RadioButton
+            android:id="@+id/rb_frontend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Unity (100€)"
+            android:textSize="16sp"
+            android:tag="100.0" />
+    </RadioGroup>
+
+    <!-- Sección de Descuentos (Checkboxes) -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo de descuento"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:layout_marginBottom="8dp" />
+
+    <CheckBox
+        android:id="@+id/cb_descuento_oro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Socio Oro (10%)"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp" />
+
+    <CheckBox
+        android:id="@+id/cb_descuento_plata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Socio Plata (5%)"
+        android:textSize="16sp"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Botón Calcular -->
+    <Button
+        android:id="@+id/btn_calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="CALCULAR"
+        android:textSize="18sp"
+        android:padding="12dp" />
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+{
+  "vinoteca": {
+    "region": "España",
+    "vinos": [
+      {
+        "id": "v001",
+        "nombre": "Marqués de Murrieta",
+        "tipo": "Reserva",
+        "disponible": true,
+        "precio": 16,
+        "moneda": "EUR",
+        "bodega": {
+          "nombre": "Bodega Murrieta",
+          "anioFundacion": 1852,
+          "localizacion": {
+            "ciudad": "Logroño",
+            "region": "La Rioja"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="vinoteca-html.xsl"?>
+<vinoteca>
+  <vino DO="Rioja" id="v001">
+    <nombre>Marqués de Murrieta</nombre>
+    <tipo>Reserva</tipo>
+    <bodega nombre="Bodega Murrieta" anioFundacion="1852">
+      <localizacion>
+        <pais>España</pais>
+        <region>La Rioja</region>
+        <ciudad>Logroño</ciudad>
+      </localizacion>
+    </bodega>
+    <precio moneda="EUR">16</precio>
+    <disponible>true</disponible>
+  </vino>
+</vinoteca>

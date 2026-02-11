@@ -1,0 +1,5 @@
+com\ad\entidades\Curso.class
+com\ad\entidades\Profesor.class
+com\ad\JpaUtil\JpaUtil.class
+com\ad\moro_lopez_jaime_tarea4_2\Main.class
+com\ad\entidades\Departamento.class

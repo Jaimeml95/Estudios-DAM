@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<premios xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="premios.xsd">
+  <edicion año="2024" nombre="Oscar">
+    <categoria nombre="Mejor Película">
+      <pelicula>Oppenheimer</pelicula>
+      <ganadores>
+        <persona>Christopher Nolan</persona>
+        <persona>Emma Thomas</persona>
+      </ganadores>
+    </categoria>
+    <categoria nombre="Mejor Director">
+      <pelicula>Oppenheimer</pelicula>
+      <ganadores>
+        <persona>Christopher Nolan</persona>
+      </ganadores>
+    </categoria>
+  </edicion>
+
+  <edicion año="2024" nombre="Goya">
+    <categoria nombre="Mejor Actriz">
+      <pelicula>La Sociedad de la Nieve</pelicula>
+      <ganadores>
+        <persona>Penélope Cruz</persona>
+      </ganadores>
+    </categoria>
+    <categoria nombre="Mejor Guion Original">
+      <pelicula>La Sociedad de la Nieve</pelicula>
+    </categoria>
+  </edicion>
+</premios>

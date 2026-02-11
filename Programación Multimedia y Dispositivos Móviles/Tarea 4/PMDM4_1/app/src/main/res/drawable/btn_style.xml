@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Recurso dibujable (Shape Drawable) para el estilo del botón -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Fondo de color amarillo -->
+    <solid android:color="#FFEB3B" />
+
+    <!-- Esquinas redondeadas -->
+    <corners android:radius="16dp" />
+</shape>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculadora"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
+        android:textColor="@android:color/black"/>
+
+    <!-- Campo Operando 1 (Tipo real) -->
+    <EditText
+        android:id="@+id/et_operando1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Operando 1"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="18sp"/>
+
+    <!-- Campo Operando 2 (Tipo real) -->
+    <EditText
+        android:id="@+id/et_operando2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Operando 2"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="18sp"/>
+
+    <!-- Contenedor Horizontal para los Botones -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="40dp">
+
+        <!-- Botón Suma -->
+        <Button
+            android:id="@+id/btn_suma"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sumar"
+            android:textSize="12sp"
+            android:padding="4dp"
+            android:layout_marginEnd="2dp"/>
+
+        <!-- Botón Resta -->
+        <Button
+            android:id="@+id/btn_resta"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Restar"
+            android:textSize="12sp"
+            android:padding="4dp"
+            android:layout_marginEnd="1dp"/>
+
+        <!-- Botón Multiplicación -->
+        <Button
+            android:id="@+id/btn_multiplicacion"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Multiplicar"
+            android:textSize="12sp"
+            android:padding="4dp"
+            android:layout_marginEnd="1dp"/>
+
+        <!-- Botón División -->
+        <Button
+            android:id="@+id/btn_division"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Dividir"
+            android:textSize="12sp"
+            android:padding="4dp"/>
+    </LinearLayout>
+
+    <!-- TextView para el Resultado -->
+    <TextView
+        android:id="@+id/tv_resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:gravity="center_horizontal"/>
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+# --- JAVA ---
+*.class
+*.log
+*.jar
+*.war
+*.ear
+# Carpetas de construcción
+bin/
+build/
+target/
+dist/
+# Configuraciones de IDEs
+.settings/
+.classpath
+.project
+.nb-gradles/
+.idea/
+*.iml
+out/
+
+# --- PYTHON ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env
+.pytest_cache/
+
+# --- SISTEMA ---
+Thumbs.db
+.DS_Store
